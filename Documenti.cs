@@ -25,9 +25,5 @@ namespace csharp_biblioteca
             this.author = author;
         }
 
-        public virtual void Search()
-        {
-
-        }
     }
 }

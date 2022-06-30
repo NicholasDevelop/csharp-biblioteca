@@ -17,9 +17,5 @@ namespace csharp_biblioteca
             this.nPages = nPages;
         }
 
-        public override void Search()
-        {
-
-        }
     }
 }

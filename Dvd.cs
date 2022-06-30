@@ -17,9 +17,5 @@ namespace csharp_biblioteca
             this.time = time;
         }
 
-        public override void Search()
-        {
-
-        }
     }
 }
