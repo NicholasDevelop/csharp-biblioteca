@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace csharp_biblioteca
 {
-    internal class Documenti
+    internal class Documenti : Prestito
     {
         public string title { get; set; }
         public string date { get; set; }

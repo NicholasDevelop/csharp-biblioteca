@@ -23,9 +23,18 @@ namespace csharp_biblioteca
             this.tel = tel;
         }
 
-        public void Registration()
-        {
-
-        }
+        //public void Registration()
+        //{
+        //    Console.WriteLine("Inserisci il tuo nome");
+        //    this.name = Console.ReadLine;
+        //    Console.WriteLine("Inserisci il tuo cognome");
+        //    this.surname = Console.ReadLine;
+        //    Console.WriteLine("Inserisci la tua mail");
+        //    this.email = Console.ReadLine;
+        //    Console.WriteLine("Inserisci la password");
+        //    this.password = Console.ReadLine;
+        //    Console.WriteLine("Inserisci il tuo numero di telefono");
+        //    this.tel = Console.ReadLine;
+        //}
     }
 }
