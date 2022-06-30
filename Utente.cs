@@ -22,5 +22,10 @@ namespace csharp_biblioteca
             this.password = password;
             this.tel = tel;
         }
+
+        public void Registration()
+        {
+
+        }
     }
 }

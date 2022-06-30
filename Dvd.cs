@@ -16,5 +16,10 @@ namespace csharp_biblioteca
             this.serialNumber = serialNumber;
             this.time = time;
         }
+
+        public override void Search()
+        {
+
+        }
     }
 }

@@ -24,5 +24,10 @@ namespace csharp_biblioteca
             this.sectorPosition = sectorPosition;
             this.author = author;
         }
+
+        public virtual void Search()
+        {
+
+        }
     }
 }

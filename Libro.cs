@@ -16,5 +16,10 @@ namespace csharp_biblioteca
             this.isbn = isbn;
             this.nPages = nPages;
         }
+
+        public override void Search()
+        {
+
+        }
     }
 }
