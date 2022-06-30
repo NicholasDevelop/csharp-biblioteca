@@ -15,7 +15,11 @@ namespace csharp_biblioteca
         public string sectorPosition { get; set; }
         public string author { get; set; }
 
-        public Documenti (string title, string date, string genre, bool disponibility, string sectorPosition, string author)
+        public List<Libro> ListaLibri = new List<Libro>();
+        public List<Dvd> ListaDvd = new List<Dvd>();
+
+
+        public Documenti (string title, string date, string genre, bool disponibility, string sectorPosition, string author, string rentalDate, string returnDate) : base(rentalDate, returnDate)
         {
             this.title = title;
             this.date = date;

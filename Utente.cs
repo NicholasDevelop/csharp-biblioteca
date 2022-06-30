@@ -26,15 +26,15 @@ namespace csharp_biblioteca
         //public void Registration()
         //{
         //    Console.WriteLine("Inserisci il tuo nome");
-        //    this.name = Console.ReadLine;
+        //    this.name = Console.ReadLine();
         //    Console.WriteLine("Inserisci il tuo cognome");
-        //    this.surname = Console.ReadLine;
+        //    this.surname = Console.ReadLine();
         //    Console.WriteLine("Inserisci la tua mail");
-        //    this.email = Console.ReadLine;
+        //    this.email = Console.ReadLine();
         //    Console.WriteLine("Inserisci la password");
-        //    this.password = Console.ReadLine;
+        //    this.password = Console.ReadLine();
         //    Console.WriteLine("Inserisci il tuo numero di telefono");
-        //    this.tel = Console.ReadLine;
+        //    this.tel = Int.Parse(Console.ReadLine());
         //}
     }
 }
