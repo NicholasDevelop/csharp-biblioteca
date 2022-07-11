@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace csharp_biblioteca
 {
-    internal class Dvd : Documenti
+    internal class Dvd : Item
     {
-        public long serialNumber { get; set; }
-        public int time { get; set; }
 
-        public Dvd(long serialNumber, int time, string title, string date, string genre, bool disponibility, string sectorPosition, string author) : base(title, date, genre, disponibility, sectorPosition, author)
+        uint duration;
+        public Dvd(string id, uint duration, string title, string author, DateTime year, string genre, bool isAvailable, int inShelf) : base(id, title, author, year, genre, isAvailable, inShelf)
         {
-            this.serialNumber = serialNumber;
-            this.time = time;
+            this.duration = duration;
+            this.id = id;
         }
-
     }
 }
